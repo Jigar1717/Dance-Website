@@ -1,0 +1,32 @@
+body{
+    background-color: aliceblue;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    margin: 5px 10px;
+    width: 50%;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+#submit{
+    margin-bottom: 280px;
+    margin-top: 10px;
+    font-size: 1.2em;
+    padding: 3px 10px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: gray;
+    color: white;
+}
